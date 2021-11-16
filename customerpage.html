@@ -29,7 +29,7 @@
                 <li><a href="#" class="nav-link" href="customerpage.html"><i class="fa fa-user-o"></i><B>View
                             Customers</B></a></li>
                 <li><a href="contactme.html"><i class="fa fa-phone"></i><B>Contact</B></a></li>
-                <!-- <li class="nav-item"><a class="nav-link" href="about.html"><i class="fa fa-clone"></i>About Us</a> -->
+
 
             </ul>
     </section>
@@ -42,9 +42,8 @@
         <a class="btn" href="" data-toggle="modal" data-target="#transactionHistory">Transaction History</a>
     </div>
 
-    <!--  Transfer of Money -->
-    <div class="modal fade" id="sendMoney" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
+
+    <div class="modal fade" id="sendMoney" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -56,8 +55,7 @@
                 <div class="modal-body">
                     <form action="">
                         <div class="input-group mb-3">
-                            <input type="text" id="enterName" class="form-control" placeholder="Recipient's Email"
-                                aria-label="Recipient's E-mail" aria-describedby="basic-addon2">
+                            <input type="text" id="enterName" class="form-control" placeholder="Recipient's Email" aria-label="Recipient's E-mail" aria-describedby="basic-addon2">
                             <div class="input-group-append">
                                 <span class="input-group-text" id="basic-addon2">@gmail.com</span>
                             </div>
@@ -66,8 +64,7 @@
                             <div class="input-group-prepend">
                                 <span class="input-group-text">INR</span>
                             </div>
-                            <input type="text" id="enterAmount" class="form-control" placeholder=" Enter the Amount"
-                                aria-label="Amount (to the nearest dollar)">
+                            <input type="text" id="enterAmount" class="form-control" placeholder=" Enter the Amount" aria-label="Amount (to the nearest dollar)">
                             <div class="input-group-append">
                                 <span class="input-group-text">.00</span>
                             </div>
@@ -76,8 +73,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" onclick="perform_transaction()" class="btn btn-success"
-                        data-dismiss="modal">Transfer
+                    <button type="button" onclick="perform_transaction()" class="btn btn-success" data-dismiss="modal">Transfer
                         Money</button>
                 </div>
             </div>
@@ -85,10 +81,9 @@
     </div>
 
 
-    <!-- Transaction History -->
 
-    <div class="modal fade" id="transactionHistory" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
+
+    <div class="modal fade" id="transactionHistory" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -110,7 +105,7 @@
     </div>
 
 
-    <!-- Costumer's details -->
+
 
     <div class="container">
         <div class="table-responsive">
@@ -219,10 +214,6 @@
             </table>
         </div>
     </div>
-
-
-
-
 
 </body>
 
